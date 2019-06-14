@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textView_TypeOfShape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="63dp"
+        android:text="Shape to Detect" />
+
+    <TextView
+        android:id="@+id/textView_piece_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="100dp"
+        android:text="Shape Label" />
+
+    <EditText
+        android:id="@+id/shape_label"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Shape Label" />
+
+    <TextView
+        android:id="@+id/textView_color_detect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="137dp"
+        android:text="Shape to Detect" />
+
+    <Spinner
+        android:id="@+id/color_to_detect"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="10dp"
+        android:entries="@array/colors_detect" />
+
+    <TextView
+    android:id="@+id/textView_flash"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="0dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginTop="174dp"
+    android:text="Activate flash" />
+
+    <CheckBox
+        android:id="@+id/useFlash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="74dp"
+       />
+
+    <TextView
+        android:id="@+id/textView_display_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="211dp"
+        android:text="Display Info" />
+
+    <CheckBox
+        android:id="@+id/freezeVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="74dp"
+        android:onClick="setFreezeVideo"/>
+
+
+    <Spinner
+        android:id="@+id/shape_to_detect"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="10dp"
+        android:entries="@array/shapes" />
+
+
+</RelativeLayout>

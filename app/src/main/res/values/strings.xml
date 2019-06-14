@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Optical Detection</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="configure_button">Configure Detection</string>
+    <string name="start_detectection">Start Detection</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string-array name="shapes">
+        <item>All Shapes</item>
+        <item>Round Shapes</item>
+        <item>Triangle Shapes</item>
+        <item>Rectangle Shapes</item>
+        <item>Pentagon Shapes</item>
+        <item>Hexagon Shapes</item>
+    </string-array>
+
+    <string-array name="colors_detect">
+        <item>All Colors</item>
+        <item>Red Color</item>
+        <item>Blue Color</item>
+        <item>Green Color</item>
+    </string-array>
+</resources>
